@@ -1,0 +1,85 @@
+/* -------------------  MOBILE  --------------------- */
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial;
+  min-height: 100vh;
+  background-color: #fad390;
+}
+
+header {
+  text-align: center;
+  color: #eb2f06;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+footer {
+  /* footer styles */
+}
+
+.tabs {
+  overflow: hidden;
+  border: 1px solid #e55039;
+  background-color: #e55039;
+  align-content: center;
+}
+
+.tabs button {
+  background-color: inherit;
+  float: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 16px;
+  transition: 0.3s;
+  font-size: 18px;
+  color: #fff;
+}
+
+.tabs button:hover {
+  background-color: #fad390;
+  color: #000;
+}
+
+.tabs button.active {
+  background-color: #f8c291;
+  color: #000;
+}
+
+.tabContent {
+  display: block;
+  padding: 6px 12px;
+  border: 1px solid #e55039;
+  border-top: none;
+  background-color: #f8c291;
+}
+
+p.capitalize {
+  text-transform: capitalize;
+}
+
+p.message {
+  font-size: 1.25em  ;
+}
+
+/* -------------------  TABLET  --------------------- */
+@media (min-width: 768px) {
+  /* use mobile */
+}
+
+/* -------------------  DESKTOP  -------------------- */
+
+@media (min-width: 1224px) {
+  /* use mobile */
+}
+
+/* -------------------  LARGE SCREENS  -------------- */
+
+@media (min-width: 1824px) {
+  /* use mobile */
+}
